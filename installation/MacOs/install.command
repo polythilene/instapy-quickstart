@@ -59,7 +59,8 @@ else
     # Checking if InstaPy can be installed and installing InstaPy
     if [ $DONE_STEPS = 3 ]; then
         echo "Installing InstaPy..."
-        pip install instapy
+        # pip install instapy
+        pip install git+https://github.com/polythilene/InstaPy/InstaPy.git@master
         
         echo "===================="
         
