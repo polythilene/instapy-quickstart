@@ -60,7 +60,7 @@ else
     if [ $DONE_STEPS = 3 ]; then
         echo "Installing InstaPy..."
         # pip install instapy
-        pip install git+https://github.com/polythilene/InstaPy/InstaPy.git@master
+        pip install git+https://github.com/polythilene/InstaPy.git@master
         
         echo "===================="
         
